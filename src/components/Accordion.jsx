@@ -29,7 +29,7 @@ const Accordion = () => {
   return (
     <section className="wrapper">
       <button onClick={handleMultiSelection} className="multi__btn">
-        Enable Multiple Selection
+        Select Multiple
       </button>
       <div className="accordion__container">
         {data && data.length > 0 ? (
